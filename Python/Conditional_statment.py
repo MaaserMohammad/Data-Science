@@ -42,7 +42,6 @@ if age >= 18:
 else:
     print(f"Hello {name} sorry you can vote after {18 - age} years")
 
-
 # --- Q6. Take an integer (1-7) and print the corresponding day of the week. handle invalid input too---
 
 a = int(input("please tell your day(1-7):- "))
