@@ -112,3 +112,13 @@ if char in "aeiouAEIOU":
     print(f"{char} is a vowel")
 else:
     print(f"{char} is a consonant")
+
+# --- Q11. Take three sides of a triangle and check if it's a valid triangle or not using the triangle inequality theorem ---
+
+a = float(input("please tell your first side of triangle : - "))
+b = float(input("please tell your second side of triangle : - "))
+c = float(input("please tell your third side of triangle : - "))
+if a + b > c and a + c > b and b + c > a:
+    print("its a valid triangle")
+else:
+    print("sorry its not a valid triangle")
